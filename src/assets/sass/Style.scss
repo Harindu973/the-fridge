@@ -1,0 +1,301 @@
+$myColor: #003a59;
+
+html {
+  background-color: #fff;
+}
+
+
+
+// header
+// ------------------------------------
+
+h1 {
+  color: $myColor;
+}
+
+span {
+  color: $myColor;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.subheadding {
+  color: #728197;
+}
+
+.header {
+  position: relative;
+ 
+  height: 240px;
+  left: 50%; 
+  transform: translateX(-50%);
+  top: 0px;
+  padding-top: 40px;
+
+  background: #FFFFFF;
+}
+
+
+
+// Box Items
+// -------------------------------------------------
+.formBox {
+  position: absolute;
+  width: 900px;
+  height: 170px;
+  left: 50%; 
+  transform: translateX(-50%);
+  top: 22%;
+  padding-left: 50px;
+  padding-top: 50px;
+
+  background: #fff;
+  border: 1px solid #e3e9f1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px #c9c9c9;
+}
+
+.boxLabel {
+  position: relative;
+  width: 290px;
+  height: 17px;
+  padding-left: 10px;
+  /*left: 2%;*/
+  /*top: 37px;*/
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: -10px;
+
+  /* identical to box height */
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+
+  color: #2e3849;
+}
+
+.inputBox {
+  position: relative;
+  width: 290px;
+  height: 40px;
+  padding: 12px 10px;
+  background: #ffffff;
+  border: 2px solid #ccd6e1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btnSubmit {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  background: #00598d;
+  border-radius: 8px;
+}
+
+.box1 {
+  position: absolute;
+  float: left;
+  padding-left: 20px;
+  // background: blue;
+}
+
+.box2 {
+  position: absolute;
+  left: 400px;
+  max-width: 300px;
+  //background: pink;
+}
+
+.box3 {
+  position: relative;
+  float: right;
+  padding-right: 60px;
+  //  background: red;
+}
+
+
+
+
+
+//Data Viewing
+// -------------------------------------
+
+.dataRow {
+  position: relative;
+  height: 50px;
+  width: 55%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  left: 50%; 
+  transform: translateX(-50%);
+  right: 25%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 14px;
+
+ 
+
+  background: #fff;
+  border: 1px solid #eef3f8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+// .rowContainer{
+//  position: relative;
+//  //top:25%;
+// }
+
+.dataRowContainer{
+  background: #F4FAFF;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  min-height: 300px;
+}
+
+#rowCount{
+  position: relative;
+  left: 72%;
+  width: 200px;
+}
+
+
+
+
+
+//Inner row Contents
+// -------------------------------------
+.itemName{
+ float: left;
+ width: 150px;
+ font-weight: 700;
+}
+
+.expireDate{
+  float: left; 
+  margin-left: 10px;
+  color:gray;
+
+}
+
+#expireDate {
+  color:gray;
+  font-size: small;
+}
+
+.statusHealthy{
+  background-color: #92f5c2;
+  width: 120px;
+  height: 25px;
+  border-radius: 30px;
+  text-align: center;
+  color: #28BF74;
+  font-size: small;
+  padding-top: 5px;
+
+  float: right; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.statusEVS{
+  background-color: #f0c89a;
+  width: 120px;
+  height: 25px;
+  border-radius: 30px;
+  text-align: center;
+  color: #bf7128;
+  font-size: small;
+  padding-top: 5px;
+
+  float: right; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.statusExpired{
+  background-color: #fcacac;
+  width: 120px;
+  height: 25px;
+  border-radius: 30px;
+  text-align: center;
+  color: #ce2929;
+  font-size: small;
+  padding-top: 5px;
+
+  float: right; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.statusExpSoon{
+  background-color: #e9e576;
+  width: 120px;
+  height: 25px;
+  border-radius: 30px;
+  text-align: center;
+  color: #b7b91d;
+  font-size: small;
+  padding-top: 5px;
+
+  float: right; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btnDelete{
+  float: right; 
+  margin-left: 10px;
+  margin-right: 20px;
+  
+}
+
+#deleteButton{
+  border: none;
+  background: #fff;
+  
+}
+#deleteButton:hover{
+  border: none;
+  border-radius: 5px;
+  background: red;
+}
+
+.dataRow:hover {
+  border: 2px solid #18A0FB;
+}
+
+
+
+
+
+
+//pre loader
+.preLoader{
+  position: relative;
+  height: 50px;
+  width: 55%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  left: 50%; 
+  transform: translateX(-50%);
+  right: 25%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+
+ 
+
+
+  box-sizing: border-box;
+ 
+}
